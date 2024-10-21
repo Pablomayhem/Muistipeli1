@@ -38,9 +38,9 @@ public class Muistipeli {
 
         if(Arrays.equals(arvotutNumerot, kayttajanNumerot))
         {
-            System.out.println("Vitun loistavaa saatana.");
+            System.out.println("Loistavaa, muistit oikein.");
         } else {
-            System.out.println("Valitettavasti olet paska. Oikeat numerot olivat: " + Arrays.toString(arvotutNumerot));
+            System.out.println("Valitettavasti nyt meni väärin. Oikeat numerot olivat: " + Arrays.toString(arvotutNumerot));
             System.out.println("Syöttämäsi numerot olivat: " + Arrays.toString(kayttajanNumerot));
         }
 
