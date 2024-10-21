@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Muistipeli {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        
 
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
@@ -40,7 +40,7 @@ public class Muistipeli {
         {
             System.out.println("Loistavaa, muistit oikein.");
         } else {
-            System.out.println("Valitettavasti nyt meni väärin. Oikeat numerot olivat: " + Arrays.toString(arvotutNumerot));
+            System.out.println("Valitettavasti jotain meni väärin. Oikeat numerot olivat: " + Arrays.toString(arvotutNumerot));
             System.out.println("Syöttämäsi numerot olivat: " + Arrays.toString(kayttajanNumerot));
         }
 
